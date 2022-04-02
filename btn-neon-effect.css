@@ -2,14 +2,14 @@
     background: #000000;
     display: flex;
     align-items: center;
-    padding: 100px
+    padding: 100px /* changeable */
 }
 
 .btns a{
     position: relative;
-    padding: 10px 30px;
-    margin: 0 15px;   
-    color: #21ebff;
+    padding: 10px 30px; /* changeable */ 
+    margin: 0 15px; /* changeable */
+    color: #21ebff; /* changeable */
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -26,9 +26,9 @@
 }
 
 .btns a:hover {
-    background: #21ebff;
+    background: #21ebff; /* changeable */
     color: #111;
-    box-shadow: 0 0 50px #21ebff;
+    box-shadow: 0 0 50px #21ebff; /* changeable */
 }
 
 .btns a::before {
@@ -38,9 +38,9 @@
     left: 0;
     width: 10px;
     height: 10px;
-    border-top: 2px solid #21ebff;
-    border-left: 2px solid #21ebff;
-    transition: 0.5;
+    border-top: 2px solid #21ebff; /* changeable */
+    border-left: 2px solid #21ebff; /* changeable */
+    transition: 0.5; 
     
 }
 
@@ -56,8 +56,8 @@ a:hover:before {
     right: 0;
     width: 10px;
     height: 10px;
-    border-bottom: 2px solid #21ebff;
-    border-right: 2px solid #21ebff;
+    border-bottom: 2px solid #21ebff; /* changeable */
+    border-right: 2px solid #21ebff; /* changeable */
     transition: 0.5;
 }
 
