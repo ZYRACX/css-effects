@@ -20,13 +20,6 @@
     transition: 0.5s;
 }
 
-.btns a:nth-child(1){
-    filter: hue-rotate(115deg)
-}
-.btns a:nth-child(3){
-    filter: hue-rotate(270deg)
-}
-
 .btns a:hover {
     background: #21ebff; /* changeable */
     color: #111;
